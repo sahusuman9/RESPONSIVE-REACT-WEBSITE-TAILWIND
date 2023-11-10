@@ -58,7 +58,7 @@ const courses = () => {
               </p>
             </div>
 
-            <Slider {...settings} className="w-4/5 mx-auto mt-32  max-[1024px]:w-3/5">
+            <Slider {...settings} className="w-4/5 mx-auto mt-32 md:3/5 lg:3/5">
 
                 <div className="s1" >
                   <div
