@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <>
         
-        <section className='home-nav navbar pb-9'>
+        <section className='home-nav navbar pb-9 max-w-screen-sm'>
 
 
             <div className='topbar flex justify-around pt-4 items-center'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='home pb-56'>
+    <div className='home pb-56 max-w-screen-sm'>
         <div className='w-3/5 mx-auto pt-56'>
                 <p className='text-gray-200 font-bold'>WELCOME TO ACADEMIA</p>
                 <p className='text-white font-bold text-5xl md:w-1/2 lg:w-1/2'>Best Online Education Expertise</p>
