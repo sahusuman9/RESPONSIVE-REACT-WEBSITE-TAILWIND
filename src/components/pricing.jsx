@@ -7,7 +7,7 @@ const pricing = () => {
 
           <div className="text-center pt-12">
               <p className="text-green-500 font-semibold">OUR PRICING</p>
-              <p className="text-white text-5xl mt-4 px-4 md:px-0 lg:px-0">
+              <p className="text-white text-5xl mt-4 px-2 md:px-0 lg:px-0">
                 Pricing & Packages
               </p>
           </div>
