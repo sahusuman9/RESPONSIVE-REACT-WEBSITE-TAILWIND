@@ -52,9 +52,9 @@ const courses = () => {
           </p>
         </div>
 
-        <Slider {...settings} className="w-4/5 mx-auto mt-32 md:3/5 lg:3/5">
+        <Slider {...settings} className="w-3/4 mx-auto mt-32  md:w-4/5 lg:w-4/5">
           <div className="s1">
-            <div className="card-1 bg-black py-8" style={{ width: "498px" }}>
+            <div className="card-1 bg-black py-8 " style={{ width: "498px" }}>
               <div className="first flex ml-12">
                 <div className="left rounded-full h-16 w-16 bg-green-500 text-center pt-4">
                   <i class="fa-solid fa-gears text-2xl"></i>
