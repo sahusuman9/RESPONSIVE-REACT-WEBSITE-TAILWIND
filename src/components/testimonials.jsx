@@ -16,6 +16,32 @@ const testimonials = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -26,7 +52,7 @@ const testimonials = () => {
       </div>
 
       <Slider {...settings} className="w-3/4 md:w-4/5 lg:w-4/5 mx-auto mt-32">
-        <div className="s1 ">
+        <div className="s1">
           <div className="card-1 w-[500px] bg-black mx-auto pb-14">
             <div className="flex items-center px-16 py-10">
               <div>
@@ -34,8 +60,8 @@ const testimonials = () => {
               </div>
 
               <div className="pl-12 flex-col">
-                <p className="text-white text-xl font-bold">ROGER SCOTT</p>
-                <p className="text-xs text-green-500 pt-4">MARKETING MANAGER</p>
+                <p className="text-white text-xl font-bold w-3/4 md:w-full lg:w-full">ROGER SCOTT</p>
+                <p className="text-xs text-green-500 pt-4 w-3/4 md:w-full lg:w-full">MARKETING MANAGER</p>
               </div>
             </div>
 
@@ -60,8 +86,8 @@ const testimonials = () => {
               </div>
 
               <div className="pl-12 flex-col">
-                <p className="text-white text-xl font-bold">ROGER SCOTT</p>
-                <p className="text-xs text-green-500 pt-4">MARKETING MANAGER</p>
+                <p className="text-white text-xl font-bold w-3/4 md:w-full lg:w-full">ROGER SCOTT</p>
+                <p className="text-xs text-green-500 pt-4 w-3/4 md:w-full lg:w-full">MARKETING MANAGER</p>
               </div>
             </div>
 
@@ -82,8 +108,8 @@ const testimonials = () => {
               </div>
 
               <div className="pl-12 flex-col">
-                <p className="text-white text-xl font-bold">ROGER SCOTT</p>
-                <p className="text-xs text-green-500 pt-4">MARKETING MANAGER</p>
+                <p className="text-white text-xl font-bold w-3/4 md:w-full lg:w-full">ROGER SCOTT</p>
+                <p className="text-xs text-green-500 pt-4 w-3/4 md:w-full lg:w-full">MARKETING MANAGER</p>
               </div>
             </div>
 
@@ -108,8 +134,8 @@ const testimonials = () => {
               </div>
 
               <div className="pl-12 flex-col">
-                <p className="text-white text-xl font-bold">ROGER SCOTT</p>
-                <p className="text-xs text-green-500 pt-4">MARKETING MANAGER</p>
+                <p className="text-white text-xl font-bold w-3/4 md:w-full lg:w-full">ROGER SCOTT</p>
+                <p className="text-xs text-green-500 pt-4 w-3/4 md:w-full lg:w-full">MARKETING MANAGER</p>
               </div>
             </div>
 
